@@ -1,0 +1,8 @@
+THE COM NODEBOOKING SYSTEM
+
+The directory structure in this repo is the same as on the deployment web server.
+The cron_mail/booking_expire.sh script needs to be added to the cron job for
+the email notifications to work properly.
+
+
+  

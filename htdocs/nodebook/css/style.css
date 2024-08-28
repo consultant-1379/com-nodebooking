@@ -1,0 +1,190 @@
+#head-container{
+	color: #000;
+	background: #ccc;
+}
+
+#header{
+	margin: 0 auto;
+	width: 860px;
+	padding: 20px;
+	background: #ddd;
+}
+
+#header h1 { margin: 0; }
+
+#navigation-container{
+	float: left;
+	width: 100%;
+	color: #000;
+	background: #333;
+}
+
+#navigation{
+	margin: 0 auto;
+	width: 900px;
+}
+
+#navigation ul{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #383; }
+
+#content-container{
+	float: left;
+	width: 100%;
+	color: #000;
+	background: #eee;
+}
+
+#content-container2{
+	margin: 0 auto;
+	width: 900px;
+}
+
+#content-container3{
+	float: left;
+	width: 900px;
+	background: #FFF url(two-fixed-background.gif) repeat-y 100% 0;
+}
+
+#content{
+	clear: left;
+	float: left;
+	width: 800px;
+	padding: 20px 0;
+	margin: 0 0 0 30px;
+	display: inline;
+}
+
+#content h3 { margin: 0; }
+
+#footer-container{
+	clear: left;
+	color: #fff;
+	background: #000;
+}
+
+#footer{
+	margin: 0 auto;
+	width: 900px;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
+
+#leftdiv {float: left}
+#rightdiv {float: right}
+#no-float {float: none}
+
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+/*	text-align: left;*/
+	table-layout: fixed;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(../image/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+.colsysname {
+	white-space: nowrap;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(../image/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(../image/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
+
+#backgroundPopup{
+	display:none;
+	position:fixed;
+	/*_position:absolute; *//* hack for internet explorer 6*/
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#000000;
+	border:1px solid #cecece;
+	z-index:1;
+}
+
+#width50px{ width: 50px; }
+#width150px{ width: 150px; }
+
+.mainpagelink A:link {font-weight:normal; text-decoration: none; font-size: 10pt;}
+.mainpagelink A:visited {font-weight:normal; text-decoration: none}
+.mainpagelink A:active {font-weight:normal; text-decoration: none}
+.mainpagelink A:hover {font-weight:bold; text-decoration: underline; color: red;}
+
+.systemdetailslink A:link {font-weight:normal; text-decoration: none; font-size: 8pt;}
+.systemdetailslink A:visited {font-weight:normal; text-decoration: none}
+.systemdetailslink A:active {font-weight:normal; text-decoration: none}
+.systemdetailslink A:hover {font-weight:bold; text-decoration: underline; color: red;}
+
+
+.meter-wrap{
+    position: relative;
+}
+
+.meter-wrap, .meter-value, .meter-text {
+    /* The width and height of your image */
+    /*width: 155px; height: 30px;*/
+    width: 123px; height: 30px;    
+}
+
+.meter-wrap, .meter-value {
+   /* background: #bdbdbd url(../image/meter-outline.png) top left no-repeat;*/
+    background: #bdbdbd top left no-repeat;
+}
+
+.meter-text {
+    position: absolute;
+    top:0; left:0;
+
+    padding-top: 5px;
+
+    color: #fff;
+    text-align: center;
+    width: 100%;   
+}
+
